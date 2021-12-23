@@ -1,0 +1,77 @@
+###################################
+#                                 #
+#   AntiInventory - Config File   #
+#                                 #
+#      Developed by SherRao       #
+#                                 #  
+###################################
+#
+#
+# <--- Anything with this before it means it is a comment, it can be changed to your liking
+# You can even add your own comments!
+#
+#
+# [String/Color Codes]
+# Color codes (the '&' symbol) can be used for formatting in strings
+# You can find a list of adsll color codes here: http://wiki.ess3.net/mc/
+# 
+#
+# [Sound ID's] 
+# Sound ID's can be used where necessary 
+# You can find Sound ID's for each Minecraft version here:
+#
+# (1.7/1.8) https://jd.bukkit.org/org/bukkit/Sound.html 
+# (1.9) https://web.archive.org/web/20150919025029/https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+# (Latest) https://hub.spigotmc.org/javadocs/spigot#
+#
+#
+# [Block/Item ID's]
+# Sound/Block ID's can be used where necessary
+# You can find Block/Sound ID's for each item/block here: https://jd.bukkit.org/org/bukkit/Material.html
+#
+
+# Should the plugin be enabled?
+#  Acceptable = [true|false]
+enabled: true
+
+# Should the plugin log all messages or just error messages to the console?
+#  Acceptable = [true|false]
+verbose: true
+
+
+# Worlds where interacting with inventories is blocked
+#  Acceptable = [String]
+blocked-worlds:
+    - "world"
+    - "world_the_end"
+
+messages:
+
+    # When a player tries to click on an item in their inventory, in a certain world
+    blocked: "&cHey! That isn't allowed in this world!"
+
+    # When a command is performed by console
+    cmd-sender-is-console: "&cOnly a player can perform that command!"
+
+    # When an invalid item is trying to be added
+    cmd-invalid-item: "&cThat isn't a valid item!"
+
+    # When an item is successfully added to the exempt list
+    cmd-success: "&aYou have added that item to the exempt item list!"
+
+    # When an item is already added to the lists
+    cmd-already-added: "&6That item is already in the allowed list!"
+
+sounds:
+    
+    # When a player tries to click on an item in their inventory, in a certain world
+    blocked: "ANVIL_BREAK"
+
+    # When an invalid item is trying to be added
+    cmd-invalid-item: "ANVIL_BREAK"
+    
+    # When an item is successfully added to the exempt list
+    cmd-success: "ANVIL_USE"    
+    
+    # When an item is already added to the lists
+    cmd-already-added: "ANVIL_BREAK"

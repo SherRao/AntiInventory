@@ -1,0 +1,14 @@
+name: AntiInventory
+version: 320.72.23_MC-1.8.8
+description: AntiInventory
+author: SherRao
+
+main: tk.sherrao.bukkit.antiinv.AntiInventory
+prefix: AntiInventory
+database: false
+
+commands:
+
+    antiinventory:
+        description: "Allows adding in-hand item to whitelist"
+        aliases: [ antiinv, ai ]
