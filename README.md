@@ -1,7 +1,7 @@
 _This project was an old commission and is here for archive purposes, not actively worked on_
 
 # AntiInventory
-Bukkit plugin for a specific server with an overhaul of features, such as commands, enchantments, and ownership systems.
+A Minecraft Bukkit plugin that prevented the pickup of certain blacklisted items.
 Created for Spigot 1.8.8
 
 ## Dependencies
